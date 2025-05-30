@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AO3 Archive Viewer</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f5f5f5; }
+    input[type="file"] { margin-bottom: 20px; }
+    .fic-card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 15px; }
+    .fic-title { font-size: 1.2em; font-weight: bold; margin-bottom: 5px; }
+    .fic-meta { font-size: 0.9em; color: #555; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h1>AO3 Archive Viewer</h1>
+  <input type="file" id="fileInput" accept=".json">
+  <div id="ficList"></div>
+  <script src="script.js"></script>
+</body>
+</html>
