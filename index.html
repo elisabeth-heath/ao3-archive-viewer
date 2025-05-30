@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AO3 Archive Viewer</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #fafafa; }
+    h1 { color: #333; }
+    input[type="file"] { margin-bottom: 1em; }
+    .fic { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; background: white; }
+    .fic h2 { margin: 0 0 0.5em 0; }
+  </style>
+</head>
+<body>
+  <h1>AO3 Archive Viewer (Wayback Machine)</h1>
+  <input type="file" id="fileInput" accept=".json" />
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
